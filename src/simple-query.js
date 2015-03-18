@@ -7,13 +7,13 @@
 
 	exports.simpleQuery = {
 		addClass: function(element, className) {
-			$(element).addClass(className);
+			element.classList.add(className);
 		},
 		removeClass: function(element, className) {
-			$(element).removeClass(className);
+			element.classList.remove(className);
 		},
 		toggleClass: function(element, className) {
-			$(element).toggleClass(className);
+			element.classList.toggle(className);
 		},
 		css: function() {
 			// read about the arguments object in javascript, very handy....
